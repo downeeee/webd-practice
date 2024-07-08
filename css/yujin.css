@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol,
+li,
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, "궁서체"Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header {
+    height: 100px;
+    background-color: blue;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.logo a {}
+
+.logo a img {}
+
+/* 200*40 */
+
+
+.nav {
+    float: right;
+    width: 1000px;
+    height: 100px;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.main_menu {}
+
+.main_menu>li {
+    float: right; position: relative;
+}
+
+.main_menu>li>a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ff5050;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.main_menu>li:hover>a {background-color: #5b9bd5; color: #333;}
+
+
+
+
+
+.sub {position: absolute; left: 0; top: 50px; width: 100%; display: none; z-index: 12;}
+
+.sub li {}
+
+.sub li a {display: block; height: 40px; text-align: center; line-height: 40px;
+            font-size: 16px; font-weight: 800; background-color: #5b9bd5;}
+
+.sub li a:hover {background-color: #ffc000;}
+
+
+.sub_bg{width: 100%; height: 150px; position: absolute; top: 100px; left: 0;
+        background-color:  #5b9bd5; z-index: 11; display: none;}
+
+
+
+
+
+
+
+
+
+
+#container {
+    height: 500px;
+    background-color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+.view{height: 300px;}
+
+.fade{height: 300px;position: relative;}
+
+.fade li{width: 100%; height: 300px; position: absolute;}
+
+.fade li a{}
+
+
+
+
+.contents > div{width: 400px; height: 200px; 
+                float: left;}
+
+.contents h2{
+    width: 100px; height: 35px; font-weight: 700; font-size: 16px;
+    text-align: center; line-height: 35px; background-color: #ffc000;
+    border-radius: 20px 20px 0 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 100px;
+    background-color: chocolate;
+}
